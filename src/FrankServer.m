@@ -14,6 +14,7 @@
 #import "FrankCommandRoute.h"
 #import "DumpCommand.h"
 #import "MapOperationCommand.h"
+#import "TypeOperationCommand.h"
 #import "OrientationCommand.h"
 #import "AppCommand.h"
 #import "AccessibilityCheckCommand.h"
@@ -35,6 +36,7 @@
 		FrankCommandRoute *frankCommandRoute = [[[FrankCommandRoute alloc] init] autorelease];
 		[frankCommandRoute registerCommand:[[[DumpCommand alloc]init]autorelease] withName:@"dump"];
 		[frankCommandRoute registerCommand:[[[MapOperationCommand alloc]init]autorelease] withName:@"map"];
+        [frankCommandRoute registerCommand:[[[TypeOperationCommand alloc]init]autorelease] withName:@"type"];
 		[frankCommandRoute registerCommand:[[[OrientationCommand alloc]init]autorelease] withName:@"orientation"];
 		[frankCommandRoute registerCommand:[[[AccessibilityCheckCommand alloc] init]autorelease] withName:@"accessibility_check"];
 		[frankCommandRoute registerCommand:[[[AppCommand alloc] init]autorelease] withName:@"app_exec"];
