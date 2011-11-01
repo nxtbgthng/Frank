@@ -784,6 +784,7 @@
 				GCC_PREFIX_HEADER = Frank_Prefix.pch;
 				HEADER_SEARCH_PATHS = "lib/**";
 				INSTALL_PATH = /usr/local/lib;
+				OTHER_CFLAGS = "-w";
 				PRODUCT_NAME = Frank;
 				SDKROOT = iphoneos;
 			};
@@ -800,6 +801,7 @@
 				GCC_PREFIX_HEADER = Frank_Prefix.pch;
 				HEADER_SEARCH_PATHS = "lib/**";
 				INSTALL_PATH = /usr/local/lib;
+				OTHER_CFLAGS = "-w";
 				PRODUCT_NAME = Frank;
 				SDKROOT = iphoneos;
 			};
