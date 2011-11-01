@@ -6,6 +6,7 @@
 //  Copyright 2010 ThoughtWorks. See NOTICE file for details.
 //
 
+#import "NSObject+SBJSON.h"
 #import "OrientationCommand.h"
 
 

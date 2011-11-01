@@ -7,9 +7,10 @@
 //
 
 #import <Foundation/Foundation.h>
+#import "FrankCommandRoute.h"
 
 
-@interface AppCommand : NSObject {
+@interface AppCommand : NSObject<FrankCommand> {
 
 }
 
